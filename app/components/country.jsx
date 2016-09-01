@@ -7,7 +7,7 @@ module.exports = React.createClass({
         return (
             <div>
                 <h1>Hello {activeCountry.name}!</h1>
-                <p>{activeCountry.population}</p>
+                <p>Population: {activeCountry.population}</p>
             </div>
 
         )
