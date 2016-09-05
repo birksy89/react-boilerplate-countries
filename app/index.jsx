@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Routing
+var Router = require('react-router').Router
+var Route = require('react-router').Route
+var Link = require('react-router').Link
+
 var CountryList = require('./components/countryList.jsx');
 
 if (process.env.NODE_ENV !== 'production') {

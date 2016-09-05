@@ -6,7 +6,7 @@ module.exports = React.createClass({
         var activeCountry = this.props.countryData;
         return (
             <div className="card card-block">
-                <h1>Hello {activeCountry.name}!</h1>
+                <h1>{activeCountry.name}</h1>
                 <p>Population: {activeCountry.population}</p>
             </div>
 
