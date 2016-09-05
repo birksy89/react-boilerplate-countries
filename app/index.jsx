@@ -10,6 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 var countryJSON = require('./data/countries.json');
 
 ReactDOM.render(
-    <div>
+    <div className="container">
+      <div className="row">
     <CountryList data={countryJSON}/>
-</div>, document.getElementById('app'));
+</div></div>, document.getElementById('app'));

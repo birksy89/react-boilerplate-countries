@@ -6,7 +6,7 @@ module.exports = React.createClass({
       <ul className="PlayerList">
          {
            this.props.data.map(function(country) {
-             return <li>{country.name} <Country countryData={country}/></li>
+             return <li>{country.name} <Country countryData={country}/><a className="btn btn-primary">Hello</a></li>
            })
          }
        </ul>
