@@ -1,5 +1,9 @@
 var React = require('react');
 var numeral = require('numeral');
+
+//Components
+var CountryFlag = require('./countryFlag.jsx');
+
 module.exports = React.createClass({
 
     render: function() {
@@ -10,7 +14,7 @@ module.exports = React.createClass({
             <div className="card card-block">
                 <h1>{activeCountry.name}</h1>
                 <p>Population: {popString}</p>
-                <span className="flag-icon flag-icon-gr"></span>
+                <CountryFlag alpha2Code={activeCountry.alpha2Code}/>
             </div>
 
         )
