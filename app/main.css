@@ -1,5 +1,5 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css");
-
+@import url("../node_modules/flag-icon-css/css/flag-icon.css");
 body {
   background-color: cornsilk;
 
