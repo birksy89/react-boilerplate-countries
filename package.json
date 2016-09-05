@@ -56,9 +56,22 @@
   },
   "dependencies": {
     "json-loader": "^0.5.4",
+    "numeral": "^1.5.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-router": "^2.7.0",
     "url-loader": "^0.5.7"
-  }
+  },
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birksy89/react-boilerplate-countries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/birksy89/react-boilerplate-countries/issues"
+  },
+  "homepage": "https://github.com/birksy89/react-boilerplate-countries#readme"
 }
