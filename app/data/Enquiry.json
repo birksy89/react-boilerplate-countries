@@ -1,0 +1,296 @@
+module.exports = [
+  {
+    "ElementID": 1,
+    "ElementName": "CompanyName",
+    "Display_Name": "Company Name",
+    "Display_Type": "Text",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 2,
+        "Role": "Dev",
+        "Permission": "View"
+      }
+    ]
+  },
+  {
+    "ElementID": 2,
+    "ElementName": "CreatedBy",
+    "Display_Name": "Created By",
+    "Display_Type": "Text",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 4,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 3,
+    "ElementName": "LeadBy",
+    "Display_Name": "Lead By",
+    "Display_Type": "Text",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 6,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 4,
+    "ElementName": "LeadFromDate",
+    "Display_Name": "LeadFrom Date",
+    "Display_Type": "DateTime",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 8,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 5,
+    "ElementName": "CreatedOnDate",
+    "Display_Name": "CreatedOnDate",
+    "Display_Type": "DateTime",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 10,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 6,
+    "ElementName": "Status",
+    "Display_Name": "Status",
+    "Display_Type": "Label",
+    "ElementGroup": "Projects",
+    "Permissions": [
+      {
+        "PermissionID": 12,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 7,
+    "ElementName": "Owner_FirstName",
+    "Display_Name": "Owner_FirstName",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 14,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 8,
+    "ElementName": "Owner_LastName",
+    "Display_Name": "Owner_LastName",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 16,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 9,
+    "ElementName": "Base_Name",
+    "Display_Name": "Base_Name",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 18,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 10,
+    "ElementName": "Base_AddressLine1",
+    "Display_Name": "Base_AddressLine1",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 20,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 11,
+    "ElementName": "Base_AddressLine2",
+    "Display_Name": "Base_AddressLine2",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 22,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 12,
+    "ElementName": "Base_PostCode",
+    "Display_Name": "Base_PostCode",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 24,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 13,
+    "ElementName": "Base_Email",
+    "Display_Name": "Base_Email",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsBaseContact",
+    "Permissions": [
+      {
+        "PermissionID": 26,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 14,
+    "ElementName": "EnquiryType",
+    "Display_Name": "EnquiryType",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 28,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 15,
+    "ElementName": "MeetingDate",
+    "Display_Name": "MeetingDate",
+    "Display_Type": "DateTime",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 30,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 16,
+    "ElementName": "PhoneNo",
+    "Display_Name": "PhoneNo",
+    "Display_Type": "PhoneNumber",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 32,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 17,
+    "ElementName": "EmailID",
+    "Display_Name": "EmailID",
+    "Display_Type": "Email",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 34,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 18,
+    "ElementName": "EnquiryThrough",
+    "Display_Name": "EnquiryThrough",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 36,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 19,
+    "ElementName": "Contact_FirstName",
+    "Display_Name": "Contact_FirstName",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 38,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 20,
+    "ElementName": "Contact_LastName",
+    "Display_Name": "Contact_LastName",
+    "Display_Type": "Text",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 40,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  },
+  {
+    "ElementID": 21,
+    "ElementName": "EnquiryDate",
+    "Display_Name": "EnquiryDate",
+    "Display_Type": "DateTime",
+    "ElementGroup": "ProjectsEnquiry",
+    "Permissions": [
+      {
+        "PermissionID": 42,
+        "Role": "Dev",
+        "Permission": "Edit"
+      }
+    ]
+  }
+]
